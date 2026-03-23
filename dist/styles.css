@@ -4,4 +4,45 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  height: 80vh;
+}
+header .header-content {
+  width: min(600px, 90%);
+  margin: 10% 10%;
+}
+
+.header-nav {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to bottom, #33471A, #507029);
+  color: white;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.header-nav p {
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  opacity: 0.8;
+  transition: border-bottom 0.3s ease, opacity 0.3s ease;
+}
+.header-nav p:hover {
+  opacity: 1;
+  border-bottom: 2px solid white;
+}
+.header-nav p.active {
+  border-bottom: 2px solid white;
+  opacity: 1;
+}
+
 /*# sourceMappingURL=styles.css.map */

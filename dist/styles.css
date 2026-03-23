@@ -66,10 +66,17 @@ header p {
 
 #home {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 50px 20px;
-  width: min(900px, 90%);
   margin: 0 auto;
+  align-items: center;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  width: min(900px, 90%);
+  align-items: flex-start;
 }
 
 .card-container {
@@ -93,14 +100,14 @@ header p {
   text-align: center;
 }
 
-.home-content {
+.home-text {
   display: flex;
   flex-direction: column;
 }
-.home-content p {
+.home-text p {
   margin: 1em 0;
 }
-.home-content .contact-button {
+.home-text .contact-button {
   margin-top: 1em;
   align-self: center;
   justify-self: center;
@@ -118,6 +125,13 @@ header p {
 }
 .contact-button:hover {
   background-color: #33471A;
+  color: white;
+}
+
+.quote-separator {
+  width: 100vw;
+  background-color: #33471A;
+  margin: 5em 0;
   color: white;
 }
 

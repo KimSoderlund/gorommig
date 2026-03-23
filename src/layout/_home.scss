@@ -2,10 +2,17 @@
 
 #home {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 50px 20px;
-    width: min(900px, 90%);
     margin: 0 auto;
+    align-items: center;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    width: min(900px, 90%);
+    align-items: flex-start;
 }
 
 .card-container {
@@ -30,7 +37,7 @@
     }
 }
 
-.home-content {
+.home-text {
     display: flex;
     flex-direction: column;
 

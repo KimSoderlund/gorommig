@@ -1,0 +1,8 @@
+@use '../base/variables' as *;
+
+.quote-separator {
+    width: 100vw;
+    background-color: $secondary-color;
+    margin: 5em 0;
+    color: $text-color-light;
+}

@@ -10,10 +10,11 @@ Changes and the motivations for the changes in no particular order
    - logo is hard to recreate for promotions & the light gray night-sky details may cause issues when printing & copying
 
 3. Restyle navbar
-   - repair naviation links
-   - make active navigation link display active page
-   - center navigation links
+   - repair naviation links, so that users can navigate the page.
+   - make active navigation link display active page, to not confuse users where they are on the webpage.
+   - center navigation links,
    - Change link sizes/weight to make them easier to see
+   - Change to single HTML, for speed!
 
 4. Restyle Hero Image
    - Looks outdated and should be uniqe for each page to reflect the content of the page. Currently it's har to know if you actually changed page

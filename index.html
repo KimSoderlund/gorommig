@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/styles.css">
+    <script src="assets/script/script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -19,11 +20,30 @@
         </div>
     </header>
     <div class = "header-nav">
-        <p class = "active">Hem</p>
-        <p>Om Oss</p>
-        <p>Tjänster</p>
-        <p>Kontakta Oss</p>
+        <p class = "active" data-target="home">Hem</p>
+        <p data-target="about">Om Oss</p>
+        <p data-target="services">Tjänster</p>
+        <p data-target="contact">Kontakta Oss</p>
     </div>
+
+    <section id="home">
+        Home
+    </section>
+    
+    
+    <section id="about">
+        About
+    </section>
+    
+    
+    <section id="services">
+        Services
+    </section>
+
+
+    <section id="contact">
+        Contact
+    </section>
 
 
 </body>

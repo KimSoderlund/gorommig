@@ -12,7 +12,7 @@ navLinks.forEach(link => {
 
         sections.forEach(section => {
             if (section.id === target) {
-                section.style.display = "block";
+                section.style.display = "flex";
                 section.classList.add("active");
             } else {
                 section.style.display = "none";
@@ -26,7 +26,7 @@ navLinks.forEach(link => {
 function init (){
     sections.forEach(section => {
         if (section.id === "home") {
-            section.style.display = "block";
+            section.style.display = "flex";
             section.classList.add("active");
         } else {
             section.style.display = "none";

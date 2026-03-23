@@ -8,7 +8,6 @@ header {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #333;
   color: white;
   padding: 20px;
   height: 80vh;
@@ -63,6 +62,63 @@ header p {
 .header-nav p.active {
   border-bottom: 2px solid white;
   opacity: 1;
+}
+
+#home {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 20px;
+  width: min(900px, 90%);
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  margin-right: 3em;
+}
+.card-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #507029;
+  color: white;
+  border-radius: 8px;
+  padding: 2em;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+}
+.home-content p {
+  margin: 1em 0;
+}
+.home-content .contact-button {
+  margin-top: 1em;
+  align-self: center;
+  justify-self: center;
+}
+
+.contact-button {
+  background-color: #507029;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.contact-button:hover {
+  background-color: #33471A;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

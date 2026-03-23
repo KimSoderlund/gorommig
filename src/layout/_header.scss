@@ -1,9 +1,10 @@
+@use '../base/variables' as *;
+
 header {
     position: relative;
     display:flex;
     flex-direction: column;
-    background-color: #333;
-    color: white;
+    color: $text-color-light;
     padding: 20px;
     height: 80vh;
     background-image: url("../assets/images/FJP-ConsultingHero.WebP");
@@ -37,8 +38,8 @@ header {
     position: sticky;
     top: 0;
 
-    background: linear-gradient(to bottom,#33471A, #507029);
-    color:white;
+    background: linear-gradient(to bottom, $secondary-color, $accent-color);
+    color: $text-color-light;
     display: flex;
     gap: 20px;
     flex-direction: row;
@@ -55,10 +56,10 @@ header {
 
         &:hover {
             opacity: 1;
-            border-bottom: 2px solid white;
+            border-bottom: 2px solid $text-color-light;
         }
         &.active {
-            border-bottom: 2px solid white;
+            border-bottom: 2px solid $text-color-light;
             opacity: 1;
         }
     }

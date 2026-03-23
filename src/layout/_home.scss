@@ -1,0 +1,46 @@
+@use '../base/variables' as *;
+
+#home {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 20px;
+    width: min(900px, 90%);
+    margin: 0 auto;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin-right: 3em;
+    
+    & div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $accent-color;
+        color: $text-color-light;
+        border-radius: 8px;
+        padding: 2em;
+        margin: 10px;
+        width: 300px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+
+    & p {
+        margin: 1em 0;
+    }
+
+    & .contact-button {
+        margin-top: 1em;
+        align-self: center;
+        justify-self: center;
+    }
+}

@@ -3,15 +3,14 @@
 #home {
     display: flex;
     flex-direction: column;
-    padding: 50px 20px;
-    margin: 0 auto;
+    margin-top: 4em;
     align-items: center;
 }
 
 .home-container {
     display: flex;
     flex-direction: row;
-    width: min(900px, 90%);
+    width: min(1100px, 90%);
     align-items: flex-start;
 }
 
@@ -28,9 +27,11 @@
         justify-content: center;
         background-color: $accent-color;
         color: $text-color-light;
+        font-size: 1.1em;
+        font-weight:bold;
         border-radius: 8px;
         padding: 2em;
-        margin: 10px;
+        margin-bottom: 1em;
         width: 300px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         text-align: center;

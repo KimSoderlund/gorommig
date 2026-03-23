@@ -114,6 +114,26 @@ header p {
   justify-self: center;
 }
 
+footer {
+  background-color: #33471A;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-socials {
+  margin-top: 1em;
+}
+.footer-socials a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+.footer-socials a:hover {
+  color: #507029;
+}
+
 .contact-button {
   background-color: #507029;
   color: white;

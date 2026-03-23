@@ -1,0 +1,17 @@
+{
+  "name": "gorommig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src:dist --no-source-map --style=expanded",
+     "watch": "sass src:dist --watch --style=expanded"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sass": "^1.98.0"
+  }
+}

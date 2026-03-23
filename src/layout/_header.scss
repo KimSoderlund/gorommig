@@ -1,14 +1,31 @@
 header {
+    position: relative;
     display:flex;
     flex-direction: column;
     background-color: #333;
     color: white;
     padding: 20px;
     height: 80vh;
+    background-image: url("../assets/images/FJP-ConsultingHero.WebP");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     .header-content {
+        position: relative;
+        z-index: 2;
         width: min(600px, 90%);
         margin: 10% 10%;
+    }
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80vh;
+        background-color: #33471a96;
+        z-index: 1;
+        pointer-events: none;
     }
 }
 

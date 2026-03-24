@@ -1,0 +1,10 @@
+@use '../base/variables' as *;
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 4em 0;
+    align-items: center;
+}

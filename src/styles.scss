@@ -5,6 +5,7 @@
 @use 'layout/footer' as *;
 @use 'components/buttons' as *;
 @use 'components/seperators' as *;
+@use 'layout/about' as *;
 
 p {
 	font-size: $font-size-p;

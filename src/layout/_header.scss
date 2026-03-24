@@ -7,7 +7,7 @@ header {
     color: $text-color-light;
     padding: 20px;
     height: 80vh;
-    background-image: url("../assets/images/FJP-ConsultingHero.WebP");
+    background-image: url("../assets/images/home-hero.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -45,6 +45,7 @@ header {
     flex-direction: row;
     justify-content: center;
     padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
     p {
         font-size: $font-size-nav;

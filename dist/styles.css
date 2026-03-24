@@ -48,7 +48,7 @@ header p {
   padding: 10px 20px;
 }
 .header-nav p {
-  font-size: large;
+  font-size: 1.3em;
   font-weight: bold;
   cursor: pointer;
   border-bottom: 2px solid transparent;
@@ -114,6 +114,31 @@ header p {
   justify-self: center;
 }
 
+.support-container {
+  display: flex;
+  flex-direction: row;
+  width: min(1100px, 90%);
+  margin: 4em 0;
+  gap: 2em;
+}
+.support-container h2 {
+  align-self: center;
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+.support-container p {
+  font-size: 1.1em;
+  text-align: center;
+  max-width: 600px;
+}
+.support-container div {
+  display: flex;
+  flex-direction: column;
+}
+.support-container button {
+  margin: 1em;
+}
+
 footer {
   background-color: #33471A;
   color: white;
@@ -150,7 +175,6 @@ footer {
 }
 
 .quote-separator {
-  position: relative;
   width: 100vw;
   background-color: #33471A;
   margin: 3em 0;
@@ -164,6 +188,22 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: 2.4em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.4em;
 }
 
 /*# sourceMappingURL=styles.css.map */

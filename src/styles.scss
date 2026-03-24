@@ -5,3 +5,19 @@
 @use 'layout/footer' as *;
 @use 'components/buttons' as *;
 @use 'components/seperators' as *;
+
+p {
+	font-size: $font-size-p;
+}
+
+h1 {
+	font-size: $font-size-h1;
+}
+
+h2 {
+	font-size: $font-size-h2;
+}
+
+h3 {
+	font-size: $font-size-h3;
+}

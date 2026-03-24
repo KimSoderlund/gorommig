@@ -52,3 +52,32 @@
         justify-self: center;
     }
 }
+
+.support-container {
+    display: flex;
+    flex-direction: row;
+    width: min(1100px, 90%);
+    margin: 4em 0;
+    gap: 2em;
+
+    & h2 {
+        align-self: center;
+        font-size: $font-size-h2;
+        margin-bottom: 1em;
+    }
+
+    & p {
+        font-size: $font-size-p;
+        text-align: center;
+        max-width: 600px;
+    }
+
+    & div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    & button {
+        margin: 1em;
+    }
+}

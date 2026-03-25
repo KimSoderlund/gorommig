@@ -6,6 +6,7 @@
 @use 'components/buttons' as *;
 @use 'components/seperators' as *;
 @use 'layout/about' as *;
+@use 'layout/mediaQ' as *;
 
 p {
 	font-size: $font-size-p;

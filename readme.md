@@ -23,14 +23,5 @@ Changes and the motivations for the changes in no particular order
 5. "home" page changes
    - Change checkboxes, Makes no sense to have checkboxes for questions.
 
-6. "About" page Changes
-   - Remove kursive font
-
-7. "Solutions" page changes
-   - Re-write entire section.
-
-8. "contact us" page canges
-   - Remove the cursive text again.
-
-9. Footer changes
+6. Footer changes
    - Add socials to the footer

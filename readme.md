@@ -6,7 +6,7 @@ Changes and the motivations for the changes in no particular order
 1. Make page responsive
    - Content does not adapt to screen width, making it difficult
 
-2. Change Logo
+2. Change/remove Logo
    - logo is hard to recreate for promotions & the light gray night-sky details may cause issues when printing & copying
 
 3. Restyle navbar
@@ -24,4 +24,7 @@ Changes and the motivations for the changes in no particular order
    - Change checkboxes, Makes no sense to have checkboxes for questions.
 
 6. Footer changes
-   - Add socials to the footer
+   - Add socials to the footer instead of spreading them across different pages.
+
+7. Page background Images
+   - Remove most of them to not distract the user.
